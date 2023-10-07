@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+nav{
+    font-family: 'ubantu', 'sans-serif';
+}
+.navabout{
+    color: var(--primary);
+    letter-spacing: 1rem;
+    text-decoration: none;
+}
+.navhome{
+    color: var(--primary);
+    letter-spacing: 1rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 6rem;
+    background-color: black;    
+    color:white;
+    padding-left: 1rem;
+}
+nav ul li{
+    padding: 0  1rem;
+    font-size: 2rem;
+}
+
+.brand img{
+    width: 5rem;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    margin: 2.3rem auto;
+    width: 70%;
+    display: flex;
+    border-radius: 1.2rem;
+    padding: 3rem;
+    background-image:url('sunset.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom
+{
+    position: sticky;
+    background-color: black;
+    height: 10rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white ;
+    flex-direction: column;
+}
+.icons{
+    margin: 1rem 0;
+}
+.icons{
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 30vw;
+    cursor: pointer;
+}
+.fa-solid
+{
+    padding:0 1rem;
+}
+.songitem img
+{
+    width: 3.5rem;
+    margin: 0 2.3rem ;
+    margin-right: 1.0rem;
+    border-radius: 3.4rem;
+}
+.songitem{
+    height: 4rem;
+    display: flex;
+    width: 90%;
+    margin: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Montserrat";
+    cursor: pointer;
+    font-size: 2rem;
+
+}
+
+.songinfo{
+    position: absolute;
+    font-family: 'ubuntu' 'sans-serif';
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drip- Your fav music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="images/favicon (9).ico" rel="icon">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/74d2bee4db.js" crossorigin="anonymous"></script>
+    <nav>
+        <ul>    
+            <li class = "brand"><img src="logo.png" alt="Image unavailable"></li>
+            <li class = 'navhome'>Home</li>
+            <li><a href="https://shubhamnegi4.github.io/portfolio/" class = "navabout">About</a></li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="Song Available">
+            <h1>Top Badass Songs In 2023</h1>
+            <div>
+                <div class = "songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span id = '1'class = "songitemplay">Beautiful Day(The Kiffness x Rushawn)</span>
+                    <span class="songlistplay"></span>
+                </div>
+                <div class = "songitem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span id = '2' class = "songitemplay">Daylight(David Kushner)</span>
+                    <span class="songlistplay"></span>
+                </div>
+                <div class = "songitem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span id = '3' class = "songitemplay">Calling(Metro Boomin)</span>
+                    <span class="songlistplay"></span>
+                </div>
+                <div class = "songitem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span id = '4' class = "songitemplay">Shinunoga E-Wa( Fujii Kaze)</span>
+                    <span class="songlistplay"></span>
+                </div>
+                <div class = "songitem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span id = '5' class = "songitemplay">GO(ft.juice WRLD)</span>
+                    <span class="songlistplay"></span>
+                </div>
+                <div class = "songitem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span id = '6' class = "songitemplay">Time Flies(Drake)</span>
+                    <span class="songlistplay"></span>
+                </div>
+                <div class = "songitem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span id ='7' class = "songitemplay">In my feeling(Drake)</span>
+                    <span class="songlistplay"></span>
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar"min = "0" value = "0" max = "100">
+        <div class = "icons">
+            <i class="fa-solid fa-2x fa-backward" id = 'previous'></i>
+            <i class="fa-solid fa-2x fa-play" id ="masterplay"></i> 
+            <i class="fa-solid fa-2x fa-forward" id = 'next'></i>
+            <div class = "songinfo">
+                <img src="playing.gif" width="42px" alt="" id = "gif"> <span id="mastersongname">Beautiful Day(The Kiffness x Rushawn)</span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
